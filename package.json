@@ -5,11 +5,15 @@
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./build.js"
+    "build-token": "node ./build.js",
+    "build-sass": "sass ./src/main.scss main.css",
+    "develop": "sass --watch ./src/main.scss main.css",
+    "build": "npm run build-token & npm run build-sass"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "style-dictionary": "^2.7.0"
-  }
+  },
+  "dependencies": {}
 }

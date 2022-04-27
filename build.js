@@ -3,7 +3,7 @@ const StyleDictionary = require("style-dictionary").extend({
   platforms: {
     scss: {
       transformGroup: "scss",
-      buildPath: "build/web/",
+      buildPath: "build/web/tokens/",
       files: [
         {
           destination: "_colors.scss",

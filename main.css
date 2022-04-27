@@ -1,0 +1,46 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 27 Apr 2022 20:36:47 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Wed, 27 Apr 2022 20:36:47 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Wed, 27 Apr 2022 20:36:47 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Wed, 27 Apr 2022 20:36:47 GMT
+ */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arimo, sans-serif;
+}
+
+.content {
+  max-width: 1184px;
+  margin: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(60px, 100px));
+}
+
+[class*=col-] {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
