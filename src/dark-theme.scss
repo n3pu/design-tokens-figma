@@ -1,0 +1,11 @@
+@import '../build/web/tokens/colors';
+@import '../build/web/tokens/grids';
+@import '../build/web/tokens/spacers';
+@import '../build/web/tokens/typography';
+
+:root {
+  --color-primary: #{$token-colors-coral};
+  --color-background: #{$token-colors-puma};
+}
+
+@import 'main';

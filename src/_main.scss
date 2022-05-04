@@ -1,10 +1,6 @@
-@import '../build/web/tokens/colors';
-@import '../build/web/tokens/grids';
-@import '../build/web/tokens/spacers';
-@import '../build/web/tokens/typography';
-
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -15,6 +11,7 @@
 
 body {
   font-family: $token-fonts-content-desktop-family, sans-serif;
+  background-color: var(--color-background);
 }
 
 .content {

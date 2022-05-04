@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-token": "node ./build.js",
-    "build-sass": "sass ./src/main.scss main.css",
-    "develop": "sass --watch ./src/main.scss main.css",
+    "build-sass": "sass ./src/light-theme.scss:light-theme.css ./src/dark-theme.scss:dark-theme.css",
+    "develop": "sass --watch ./src/light-theme.scss:light-theme.css ./src/dark-theme.scss:dark-theme.css",
     "build": "npm run build-token & npm run build-sass"
   },
   "author": "",

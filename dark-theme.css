@@ -1,0 +1,125 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
+:root {
+  --color-primary: rgb(255, 137, 137);
+  --color-background: rgb(49, 49, 49);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arimo, sans-serif;
+  background-color: var(--color-background);
+}
+
+.content {
+  max-width: 1184px;
+  margin: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(60px, 100px));
+}
+
+[class*=col-] {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  padding: 8px;
+}
+
+.grid-screen {
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 1196px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 20px;
+  grid-template-rows: minmax(100vh, 1fr);
+}
+
+.content {
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 20px;
+  align-self: center;
+}
+
+.col-1 {
+  grid-column: auto/span 1;
+}
+
+.col-2 {
+  grid-column: auto/span 2;
+}
+
+.col-3 {
+  grid-column: auto/span 3;
+}
+
+.col-4 {
+  grid-column: auto/span 4;
+}
+
+.col-5 {
+  grid-column: auto/span 5;
+}
+
+.col-6 {
+  grid-column: auto/span 6;
+}
+
+.col-7 {
+  grid-column: auto/span 7;
+}
+
+.col-8 {
+  grid-column: auto/span 8;
+}
+
+.col-9 {
+  grid-column: auto/span 9;
+}
+
+.col-10 {
+  grid-column: auto/span 10;
+}
+
+.col-11 {
+  grid-column: auto/span 11;
+}
+
+.col-12 {
+  grid-column: auto/span 12;
+}
+
+input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=dark-theme.css.map */
