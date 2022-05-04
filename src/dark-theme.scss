@@ -6,6 +6,8 @@
 :root {
   --color-primary: #{$token-colors-coral};
   --color-background: #{$token-colors-puma};
+  --space-xl: #{$token-spacers-xl};
+  --space-xxl: #{$token-spacers-xxl};
 }
 
 @import 'main';

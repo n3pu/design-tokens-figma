@@ -19,6 +19,8 @@
 :root {
   --color-primary: rgb(255, 137, 137);
   --color-background: rgb(49, 49, 49);
+  --space-xl: 24px;
+  --space-xxl: 32px;
 }
 
 * {
@@ -31,6 +33,19 @@
 body {
   font-family: Arimo, sans-serif;
   background-color: var(--color-background);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-xxl) var(--space-xl);
+}
+nav .navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .content {
