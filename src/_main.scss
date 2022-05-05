@@ -44,25 +44,25 @@ nav {
   padding: $token-spacers-m;
 }
 
-.grid-screen {
-  overflow: hidden;
-  position: relative;
-  display: grid;
-  margin: 0 auto;
-  padding: 0 80px;
-  max-width: 1196px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 20px;
-  grid-template-rows: minmax(100vh, 1fr);
-}
+// .grid-screen {
+//   overflow: hidden;
+//   position: relative;
+//   display: grid;
+//   margin: 0 auto;
+//   padding: 0 80px;
+//   max-width: 1196px;
+//   grid-template-columns: repeat(12, 1fr);
+//   grid-column-gap: 20px;
+//   grid-template-rows: minmax(100vh, 1fr);
+// }
 
-.content {
-  grid-column: 1/13;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 20px;
-  align-self: center;
-}
+// .content {
+//   grid-column: 1/13;
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   grid-column-gap: 20px;
+//   align-self: center;
+// }
 
 @for $i from 1 through $token-grids-desktop-count {
   .col-#{$i} {

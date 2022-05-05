@@ -25,11 +25,25 @@
     <main class="grid-screen">
       <div class="content">
         <div class="row">
-          <div class="col-6">
-            <input type="text">
+          <div class="col-12">
+            <div class="input-wrapper">
+              <label for="token">Personal access token</label>
+              <input type="text" id="token" value="" placeholder="Token">
+            </div>
           </div>
-          <div class="col-6">
-            <input type="text">
+          <div class="col-12">
+            <div class="input-wrapper">
+              <label for="file_id">File ID</label>
+              <input type="text" id="file_id" value="" placeholder="ID">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-footer">
+              <a href="https://www.figma.com/developers" target="_blank">Figma developer platform</a>
+              <button class="btn btn-primary" id="parse_file">Parse my File</button>
+            </div>
           </div>
         </div>
       </div>
