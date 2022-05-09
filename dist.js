@@ -25,5 +25,5 @@ var encode = function( s ) {
 };
 
 document.getElementById('parse_file').addEventListener('click', function(){
-	saveJson(currentJSON, $(".file-result__name").text());
+	saveJson(currentJSON, document.getElementsByClassName("file-result__name").text());
 });
