@@ -73,3 +73,34 @@ nav {
 input {
   width: 100%;
 }
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  font-family: $token-fonts-h-1-desktop-family, sans-serif;
+}
+
+h4 {
+  font-family: $token-fonts-h-4-desktop-family, sans-serif;
+}
+
+h1 { 
+  font-size: $token-fonts-h-1-desktop-size;
+  font-weight: $token-fonts-h-1-desktop-weight;
+}
+h2 { 
+  font-size: $token-fonts-h-2-desktop-size;
+  font-weight: $token-fonts-h-2-desktop-weight;
+}
+h3 { 
+  font-size: $token-fonts-h-3-desktop-size;
+  font-weight: $token-fonts-h-3-desktop-weight;
+}
+h4 { 
+  font-size: $token-fonts-h-4-desktop-size;
+  font-weight: $token-fonts-h-4-desktop-weight;
+}

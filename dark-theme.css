@@ -1,18 +1,18 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ * Generated on Tue, 30 Aug 2022 02:48:24 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ * Generated on Tue, 30 Aug 2022 02:48:24 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ * Generated on Tue, 30 Aug 2022 02:48:24 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 29 Apr 2022 11:50:44 GMT
+ * Generated on Tue, 30 Aug 2022 02:48:24 GMT
  */
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
@@ -115,6 +115,40 @@ nav .navbar-content {
 
 input {
   width: 100%;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  font-family: Zilla Slab, sans-serif;
+}
+
+h4 {
+  font-family: Arimo, sans-serif;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=dark-theme.css.map */
